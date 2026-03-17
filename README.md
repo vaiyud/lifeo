@@ -1,4 +1,4 @@
-# Lifeo : Low-Pressure Edition 🌿
+# Lifeo: low-pressure Edition 🌿
 
 A gentle, low-pressure sanctuary designed to help you navigate your day with kindness and ease.
 
@@ -14,7 +14,7 @@ You can now add your own tasks using the input field at the top. Just type what 
 ### 🏆 Achievement Validation
 Once all tasks are either completed or deferred, a **warm validation message** appears at the bottom. This remains until you add a new task or the day resets, reminding you that you've done enough.
 
-## 🛠️ Built With
+## 🛠️ Built with:
 - **Tech**: Vanilla HTML5, CSS3, and JavaScript.
 - **Design**: Responsive layout with centered modals and contained image previews.
 - **Philosophy**: Mental well-being over productivity.
