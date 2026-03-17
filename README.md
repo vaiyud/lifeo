@@ -1,4 +1,4 @@
-# Lifeo : Low-Pressure Edition 🌿
+# Lifeo: low-pressure edition 🌿
 
 A gentle, low-pressure sanctuary designed to help you navigate your day with kindness and ease.
 
