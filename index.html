@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifeo 2.0 — A Soft Journey</title>
+    <meta name="description"
+        content="A gentle, low-pressure guide for your daily tasks. Track your progress with soft checkmarks or AI-validated photo uploads.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <header class="app-header">
+        <h1 class="logo">Lifeo</h1>
+        <p class="greeting" id="greeting">Hello, how are you feeling today?</p>
+    </header>
+
+    <main class="app-container">
+        <section class="add-task">
+            <input type="text" id="new-task-input" placeholder="What would you like to do today?"
+                aria-label="New task name">
+            <button id="add-task-btn" class="add-btn">+</button>
+        </section>
+
+        <ul class="task-list" id="task-list">
+            <!-- Tasks will be rendered here via JS -->
+        </ul>
+
+        <section id="completion-message" class="completion-message">
+            <h2>You've done enough today.</h2>
+            <p id="completion-text">Every small step is a beautiful victory. Sleep well, or just rest. You are
+                wonderful.</p>
+        </section>
+
+        <div id="ai-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 id="modal-task-name">Validating Task</h2>
+                <div class="ai-animation">
+                    <div class="pulse"></div>
+                    <img id="preview-img" src="" alt="Checking your photo..." style="display: none;">
+                    <p id="ai-status">AI is gently checking your progress...</p>
+                </div>
+                <div class="modal-buttons">
+                    <button id="confirm-task" class="confirm-btn" disabled>Almost done...</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <p>Take your time. There's no rush.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
